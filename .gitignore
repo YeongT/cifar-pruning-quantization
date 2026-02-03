@@ -1,0 +1,101 @@
+# Python - byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dylib
+*.dll
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.venv/*
+.env
+.env.*
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+# Uncomment to ignore all notebooks
+# *.ipynb
+# Jupyter nbconvert output
+*.nbconvert.ipynb
+*.nb.html
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Data and datasets
+/data/
+data/
+# If you intentionally keep a small sample in the repo, add an allow rule, e.g.:
+# !data/README.md
+
+# Model checkpoints and artifacts
+/checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+# Torchscript traces
+*.ptc
+
+# TensorBoard / experiment logs
+runs/
+logs/
+
+# Packaging
+*.egg
+*.whl
+
+# Misc
+*.pot
+*.mo
+*.cache
+
+# Secrets and certificates
+*.pem
+*.key
+*.crt
+
+# End of file
